@@ -1,0 +1,471 @@
+Deepak Mahadevappa, syatem administrator and Backup Solution architect with a 19 Years experience. Learning Azure and AWS to switch to cloud.
+
+Expectaton: Learn DevOps and understand how it can help me in my career. Devops role in System administration and its role in cloud.
+
+-------------------==========================================------------------------------===========================================--------------------
+DevOps_Day-1_1
+Swaminathan G
+-------------------==========================================------------------------------===========================================--------------------
+Links:
+mahadevappadeep
+3.93.184.141
+padeep0A@attve
+
+https://mahadevappadeepsl0018.simplilearnlabs.com:42001/guacamole/?username=guacadmin&password=guacadmin
+padeep0A@attve
+-------------------------------------------
+54.144.93.245
+mahadevappadeep
+padeep0A@wdvub
+
+ssh mahadevappadeep@54.144.93.245 -p42006
+
+
+https://etherpad.opendev.org/p/DevOps-Day1
+https://etherpad.opendev.org/p/DevOps-Day2
+
+Devops_Day3-1
+
+-------------------==========================================------------------------------===========================================--------------------
+Questions:
+What is DevOps
+
+DevOps is a concept / practice
+Tools: Jenkins, Maven, Kubernetes
+Practice: Agile, Kanban
+
+
+Different Phases of DevOps?
+What is Software Development lifecycle?
+
+What are the benefits of DevOps?
+	Reliability
+	Scalability
+	Security
+	Rapid Delivery
+	Improved Collaboration
+	Speed
+
+Required Skills for DevOps:
+	Linux (pre-requisites) - Compare daily activities of windows operations day to day
+	
+	Git and GitHub
+	CI/CD Pipeline with Jenkins
+	Selenium
+	Ansible
+	Docker	
+	Nagios
+	Kubernetes
+
+
+Companies practicing Devops: 
+	NetFlix
+
+What is Version Control System?
+What is a CI/CD Pipeline?
+
+Test Automation Frameworks that you are aware?
+	Software Testing
+	Automation Testing
+	
+What is Docker?
+What is kubernetes? 
+	More Advanaced
+
+
+What is Ansible? What is configuration Management
+
+What is Terraform? How is it different from Ansible
+
+
+Is deploying an application will come under the job of devop?
+
+Is it possible to have CI/CD using azuredevops?
+
+Programming Languages recommended - Pythin / Golang
+
+
+Linux - 
+Components of Linux OS
+	Bootloader - : A software to manage the booting process of a computer that mostly comes as a splash screen to boot into an OS.
+	Kernel-: The core of a system that manages CPU, memory, and the peripheral devices and is the basic level of an OS.
+	Init system - : A sub system that bootstraps the user space and is charged with controlling daemons.
+	Daemon -: Background services such as printing, sound, and scheduling that either startup during a boot or after logging into a system/computer.
+	Graphical server - A subsystem to display graphics on the monitor, commonly referred to as X server or just X
+	Desktop environment - : The component with which the users interact the most and includes built in applications such as file managers, configuration tools, and web browsers
+	Applications - : High quality software applications can be easily found using App Store like tools that centralize and simplify application installation
+	
+Linux distro - Linux distributions or distros are different versions of Linux OS offered to suit different versions of Linux OS offered to suit any type of users.
+	Ubuntu
+	Debian
+	CentOS
+	Fedora
+	OpenSUSE
+	Archlinux
+	
+Importance of Linux in DevOps
+●The main goal of DevOps is to deliver software at a faster pace, that means building on existing infrastructure. Linux is a huge part of that.
+●Efficiency demands of DevOps can be easily met if a Linux environment is configured and the associated networking connectivity will minimize obstacles of development process
+●Linux is highly flexible as it can be installed on any device and configured to fit any workflow
+● Linux is highly scalable as it can process large amounts of data and can easily be configured to add processing power and storage capacity
+
+Introduction to Linux administration
+Linux administration is about managing system operations such as:
+●File backups and restores
+●Disaster recovery
+●New system builds
+●Hardware, software, and user maintenance
+●Filesystem housekeeping
+●Application installation and configuration
+●System security management and storage management
+
+Linux Family tree?
+
+
+Basic Commands in Linux
+
+mahadevappadeep@ip-172-31-17-66:~$ hostname
+ip-172-31-17-66
+
+mahadevappadeep@ip-172-31-17-66:~$ ifconfig
+docker0   Link encap:Ethernet  HWaddr 02:42:c5:ab:0a:67  
+          inet addr:172.17.0.1  Bcast:172.17.255.255  Mask:255.255.0.0
+          UP BROADCAST MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:0 (0.0 B)  TX bytes:0 (0.0 B)
+
+ens5      Link encap:Ethernet  HWaddr 0a:1f:4c:66:bb:ed  
+          inet addr:172.31.17.66  Bcast:172.31.31.255  Mask:255.255.240.0
+          inet6 addr: fe80::81f:4cff:fe66:bbed/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:9001  Metric:1
+          RX packets:7527 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:6315 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:3158666 (3.1 MB)  TX bytes:2837739 (2.8 MB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:16690 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:16690 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1 
+          RX bytes:12951377 (12.9 MB)  TX bytes:12951377 (12.9 MB)
+
+mahadevappadeep@ip-172-31-17-66:~$ 
+
+mahadevappadeep@ip-172-31-17-66:~$ pwd
+/home/mahadevappadeep
+mahadevappadeep@ip-172-31-17-66:~$ 
+mahadevappadeep@ip-172-31-17-66:~$ ls
+Desktop  thinclient_drives
+mahadevappadeep@ip-172-31-17-66:~$ 
+mahadevappadeep@ip-172-31-17-66:~$ history
+    1  ssh mahadevappadeep@54.144.93.245 -p42006
+    2  ssh 54.144.93.245 -p42006
+    3  ssh 54.144.93.245 -p 42006
+    4  ssh mahadevappadeep@54.144.93.245 -p 42006
+    5  host
+    6  hostname
+    7  ifconfig
+    8  pwd
+    9  ls
+   10  history
+mahadevappadeep@ip-172-31-17-66:~$ 
+
+mahadevappadeep@ip-172-31-17-66:~$ pwd
+/home/mahadevappadeep
+mahadevappadeep@ip-172-31-17-66:~$ 
+mahadevappadeep@ip-172-31-17-66:~$ ls
+Desktop  thinclient_drives
+mahadevappadeep@ip-172-31-17-66:~$ 
+mahadevappadeep@ip-172-31-17-66:~$ history
+    1  ssh mahadevappadeep@54.144.93.245 -p42006
+    2  ssh 54.144.93.245 -p42006
+    3  ssh 54.144.93.245 -p 42006
+    4  ssh mahadevappadeep@54.144.93.245 -p 42006
+    5  host
+    6  hostname
+    7  ifconfig
+    8  pwd
+    9  ls
+   10  history
+mahadevappadeep@ip-172-31-17-66:~$ 
+mahadevappadeep@ip-172-31-17-66:/usr/share$ 
+mahadevappadeep@ip-172-31-17-66:/usr/share$ 
+mahadevappadeep@ip-172-31-17-66:/usr/share$ cd ..
+mahadevappadeep@ip-172-31-17-66:/usr$ ls
+bin  games  include  lib  libexec  local  sbin  share  src
+mahadevappadeep@ip-172-31-17-66:/usr$ cd 
+mahadevappadeep@ip-172-31-17-66:~$ pwd
+/home/mahadevappadeep
+mahadevappadeep@ip-172-31-17-66:~$ history
+    1  ssh mahadevappadeep@54.144.93.245 -p42006
+    2  ssh 54.144.93.245 -p42006
+    3  ssh 54.144.93.245 -p 42006
+    4  ssh mahadevappadeep@54.144.93.245 -p 42006
+    5  host
+    6  hostname
+    7  ifconfig
+    8  pwd
+    9  ls
+   10  history
+   11  ls
+   12  ls -ltr
+   13  ls -ltrh
+   14  cd /usr/share
+   15  ls
+   16  cd ..
+   17  ls
+   18  cd 
+   19  pwd
+   20  history
+mahadevappadeep@ip-172-31-17-66:~$ 
+
+
+
+ls
+cd
+mv
+touch
+mkdir
+rm
+rm -r
+rm -rf
+cp
+
+●ls: Command to list files and directories
+●cd: Command to change the current or active directory
+●sudo su: Command to change the current user as a super/root user
+●mv: Command to move a file or rename a file
+●rm: Command to remove files in a directory or the directory itself
+●rm r: Command to remove all the contents in a directory and the directory as well
+●mkdir: Command to create a directory in the current directory
+●chmod: Command to change a file mode to r read, w write, or x execute
+●chown: Command to change the ownership of a file/folder
+●cat: Command to view contents of a file
+●echo: Command to display a text or a string to the standard output or a file
+●clear: Command to clear the terminal screen
+●apt get: A package manager to install, remove, and upgrade software packages
+●history: Command to show previously used commands
+
+pwd;ls;df -h
+
+
+lsb_release -a
+
+
+############################################^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+
+
+DAy 2 
+
+Using username "mahadevappadeep".
+mahadevappadeep@54.196.110.187's password:
+Welcome to Ubuntu 16.04.6 LTS (GNU/Linux 4.4.0-1128-aws x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+ * Ubuntu Pro delivers the most comprehensive open source security and
+   compliance features.
+
+   https://ubuntu.com/aws/pro
+
+54 packages can be updated.
+2 updates are security updates.
+
+New release '18.04.5 LTS' available.
+Run 'do-release-upgrade' to upgrade to it.
+
+
+mahadevappadeep@ip-172-31-23-76:~$ pwd
+/home/mahadevappadeep
+mahadevappadeep@ip-172-31-23-76:~$ ls
+mahadevappadeep@ip-172-31-23-76:~$ ls -a
+.  ..  .bash_logout  .bashrc  .cache  .config  .profile  .Xdefaults  .xscreensaver
+mahadevappadeep@ip-172-31-23-76:~$ ls -lrt
+total 0
+mahadevappadeep@ip-172-31-23-76:~$ mkdir day2
+mahadevappadeep@ip-172-31-23-76:~$ ls
+day2
+mahadevappadeep@ip-172-31-23-76:~$ ls -a
+.   .bash_logout  .cache   day2      .Xdefaults
+..  .bashrc       .config  .profile  .xscreensaver
+mahadevappadeep@ip-172-31-23-76:~$
+mahadevappadeep@ip-172-31-23-76:~$ cd /usr/share
+mahadevappadeep@ip-172-31-23-76:/usr/share$ pwd
+/usr/share
+mahadevappadeep@ip-172-31-23-76:/usr/share$ echo "this is a demo file" > demo file
+-bash: demo: Permission denied
+mahadevappadeep@ip-172-31-23-76:/usr/share$ sudo echo "this is a demo file" > demo file
+-bash: demo: Permission denied
+mahadevappadeep@ip-172-31-23-76:/usr/share$ cd ..
+mahadevappadeep@ip-172-31-23-76:/usr$ ls
+bin  games  include  lib  libexec  local  sbin  share  src
+mahadevappadeep@ip-172-31-23-76:/usr$ cd -
+/usr/share
+mahadevappadeep@ip-172-31-23-76:/usr/share$ cd
+mahadevappadeep@ip-172-31-23-76:~$ pwd
+/home/mahadevappadeep
+mahadevappadeep@ip-172-31-23-76:~$ ls
+day2
+mahadevappadeep@ip-172-31-23-76:~$ cd day2
+mahadevappadeep@ip-172-31-23-76:~/day2$ ls
+mahadevappadeep@ip-172-31-23-76:~/day2$ pwd
+/home/mahadevappadeep/day2
+mahadevappadeep@ip-172-31-23-76:~/day2$ echo "this is a demo file" > demo file
+mahadevappadeep@ip-172-31-23-76:~/day2$ ls
+demo
+mahadevappadeep@ip-172-31-23-76:~/day2$ echo "this is a demo file" > demo.txt
+mahadevappadeep@ip-172-31-23-76:~/day2$ cat demo.txt
+this is a demo file
+mahadevappadeep@ip-172-31-23-76:~/day2$ echo "Hello Day2 >demoDay2.txt
+> ^C
+mahadevappadeep@ip-172-31-23-76:~/day2$ echo "Hello Day2 > demoDay2.txt
+> " > demoDay2.txt
+mahadevappadeep@ip-172-31-23-76:~/day2$ cat demo
+this is a demo file file
+mahadevappadeep@ip-172-31-23-76:~/day2$ cat demo2.txt
+cat: demo2.txt: No such file or directory
+mahadevappadeep@ip-172-31-23-76:~/day2$ cat demo2
+cat: demo2: No such file or directory
+mahadevappadeep@ip-172-31-23-76:~/day2$ ls
+demo  demoDay2.txt  demo.txt
+mahadevappadeep@ip-172-31-23-76:~/day2$ cat demoDay2.txt
+Hello Day2 > demoDay2.txt
+
+mahadevappadeep@ip-172-31-23-76:~/day2$ ls -lrt
+total 12
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep 25 Sep 12 14:07 demo
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep 20 Sep 12 14:07 demo.txt
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep 27 Sep 12 14:19 demoDay2.txt
+mahadevappadeep@ip-172-31-23-76:~/day2$ chmod -r demoDay2.txt
+mahadevappadeep@ip-172-31-23-76:~/day2$ ls
+demo  demoDay2.txt  demo.txt
+mahadevappadeep@ip-172-31-23-76:~/day2$ ls -lrt
+total 12
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep 25 Sep 12 14:07 demo
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep 20 Sep 12 14:07 demo.txt
+--w--w---- 1 mahadevappadeep mahadevappadeep 27 Sep 12 14:19 demoDay2.txt
+mahadevappadeep@ip-172-31-23-76:~/day2$ chmod +r demoDay2.txt
+mahadevappadeep@ip-172-31-23-76:~/day2$ ls -ltr
+total 12
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep 25 Sep 12 14:07 demo
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep 20 Sep 12 14:07 demo.txt
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep 27 Sep 12 14:19 demoDay2.txt
+mahadevappadeep@ip-172-31-23-76:~/day2$ chmod -w demoDay2.txt
+mahadevappadeep@ip-172-31-23-76:~/day2$ ls -lrt
+total 12
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep 25 Sep 12 14:07 demo
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep 20 Sep 12 14:07 demo.txt
+-r--r--r-- 1 mahadevappadeep mahadevappadeep 27 Sep 12 14:19 demoDay2.txt
+mahadevappadeep@ip-172-31-23-76:~/day2$ sudo su
+root@ip-172-31-23-76:/home/mahadevappadeep/day2# man sudo
+root@ip-172-31-23-76:/home/mahadevappadeep/day2# exit
+exit
+mahadevappadeep@ip-172-31-23-76:~/day2$ sudo -s
+root@ip-172-31-23-76:~/day2# man sudo
+root@ip-172-31-23-76:~/day2#
+root@ip-172-31-23-76:~/day2# who
+mahadevappadeep pts/8        2021-09-12 13:50 (106.51.234.123)
+root@ip-172-31-23-76:~/day2# exit
+exit
+mahadevappadeep@ip-172-31-23-76:~/day2$ sudo -s
+root@ip-172-31-23-76:~/day2# who
+mahadevappadeep pts/8        2021-09-12 13:50 (106.51.234.123)
+root@ip-172-31-23-76:~/day2#
+root@ip-172-31-23-76:~/day2# apt-get
+apt 1.2.32ubuntu0.2 (amd64)
+Usage: apt-get [options] command
+       apt-get [options] install|remove pkg1 [pkg2 ...]
+       apt-get [options] source pkg1 [pkg2 ...]
+
+apt-get is a command line interface for retrieval of packages
+and information about them from authenticated sources and
+for installation, upgrade and removal of packages together
+with their dependencies.
+
+Most used commands:
+  update - Retrieve new lists of packages
+  upgrade - Perform an upgrade
+  install - Install new packages (pkg is libc6 not libc6.deb)
+  remove - Remove packages
+  purge - Remove packages and config files
+  autoremove - Remove automatically all unused packages
+  dist-upgrade - Distribution upgrade, see apt-get(8)
+  dselect-upgrade - Follow dselect selections
+  build-dep - Configure build-dependencies for source packages
+  clean - Erase downloaded archive files
+  autoclean - Erase old downloaded archive files
+  check - Verify that there are no broken dependencies
+  source - Download source archives
+  download - Download the binary package into the current directory
+  changelog - Download and display the changelog for the given package
+
+See apt-get(8) for more information about the available commands.
+Configuration options and syntax is detailed in apt.conf(5).
+Information about how to configure sources can be found in sources.list(5).
+Package and version choices can be expressed via apt_preferences(5).
+Security details are available in apt-secure(8).
+                                        This APT has Super Cow Powers.
+root@ip-172-31-23-76:~/day2# history
+    1  man sudo
+    2  who
+    3  exit
+    4  who
+    5  apt-get
+    6  history
+root@ip-172-31-23-76:~/day2# git --version
+git version 2.31.1
+root@ip-172-31-23-76:~/day2#
+root@ip-172-31-23-76:~/day2#
+root@ip-172-31-23-76:~/day2# history
+    1  man sudo
+    2  who
+    3  exit
+    4  who
+    5  apt-get
+    6  history
+    7  git --version
+    8  history
+root@ip-172-31-23-76:~/day2# ls -la
+total 20
+drwxrwxr-x 2 mahadevappadeep mahadevappadeep 4096 Sep 12 14:19 .
+drwxr-xr-x 5 mahadevappadeep mahadevappadeep 4096 Sep 12 14:29 ..
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep   25 Sep 12 14:07 demo
+-r--r--r-- 1 mahadevappadeep mahadevappadeep   27 Sep 12 14:19 demoDay2.txt
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep   20 Sep 12 14:07 demo.txt
+root@ip-172-31-23-76:~/day2# chmod 777 demoDay2.txt
+root@ip-172-31-23-76:~/day2# ls -ltr
+total 12
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep 25 Sep 12 14:07 demo
+-rw-rw-r-- 1 mahadevappadeep mahadevappadeep 20 Sep 12 14:07 demo.txt
+-rwxrwxrwx 1 mahadevappadeep mahadevappadeep 27 Sep 12 14:19 demoDay2.txt
+root@ip-172-31-23-76:~/day2#
+
+
+
+
+================
+Day 3
+https://github.com/deepakclouddevops/sample-repository.git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-------------------==========================================------------------------------===========================================--------------------
